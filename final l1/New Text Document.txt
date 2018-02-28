@@ -1,0 +1,1455 @@
+                                                                                             PSEUDOCODE
+<html>
+<head>
+
+
+1. Which of the following should be used when the iterative task is to be performed for n number of times?
+
+1). switch
+2). for loop
+3). while loop
+4). do while loop
+Solution :
+option [2] is correct
+
+
+2. Which of the following statements are true for the given program?
+
+index=0 
+WHILE (index < 10)
+DO
+       IF index > 5 THEN
+            cycle 
+       ENDIF 
+       DISPLAY "Hello"
+       index=index+1 
+END WHILE
+
+1). The program will display hello 4 times and will stop when value of index > 10
+2). The program will display hello 4 times and will go in infinite loop
+3). The program will display hello 6 times and will go in infinite loop
+4). The program will display hello 5 times and will go in infinite loop
+Solution :
+option [3] is correct
+
+
+3. Coding standards include guidelines on which of the following items?
+
+1). Indentation
+2). Variable/file naming convention
+3). Program documentation and structure
+4). All of the Above
+Solution :
+option [4] is correct
+
+4. Which of the following statements are true for self review?
+
+
+1). It is done by developer with the help of team members
+2). It is done by developer with the help of checklist
+3). It is done by group of people
+4). None of the above
+Solution :
+option [2] is correct
+
+
+
+5. What's wrong in the following ?
+
+WHILE ( (INDEX < 10) && (INDEX > 24))
+DO          
+...
+END WHILE
+
+1). The logical operator && cannot be used in a test condition
+2). While cannot have conditions
+3). The test condition is always false
+4). The test condition is always true
+Solution :
+option [3] is correct
+
+
+
+6. Which of the following is incorrect about Pseudo Code?
+
+1). Helps design program structure
+2). Helps ignore syntax details
+3). Does not help in logic development
+4). Also called as Program Design Language
+Solution :
+option [3] is correct
+
+
+
+7. What will be the output of the following?
+
+FOR index = 1 TO 5
+    SET print_number TO true
+    IF index mod 3 = 0 THEN
+        PRINT "Fun"
+        SET print_number TO false
+    ENDIF
+    IF index mod 5 = 0 THEN
+        PRINT "Magic"
+        SET print_number TO false
+     ENDIF
+END FOR
+IF print_number THEN
+       PRINT "Welcome"
+ENDIF
+
+1). Fun
+Magic
+Welcome
+
+2). Fun
+Magic
+
+3). 
+Magic
+Welcome
+
+4). Fun
+Welcome
+
+Solution :
+option [2] is correct
+
+
+
+8. What are the advantages of using Pseudo code instead of using any specific programming language?
+
+1). Focus on the logic development without getting caught up in the syntax
+2). It makes writing  program easy
+3). You need not have to bother about variable initialization
+4). It can later be translated into code in any programming language
+5). None of the above
+Solution :
+option [1,2,4] are correct
+
+
+9. Which of the following are not the actual step names of Task life cycle development?
+
+1). Develop the test cases (black box)
+2). Design the program (pseudo code)
+3). Document and develop the code
+4). Implementation of program
+Solution :
+option [4] is correct
+
+
+10. Variables can be of the following datatypes?
+
+1). Integer, Floating Point
+2). Character, String
+3). Constants
+4). All of the above
+Solution :
+option [1,2] are correct
+
+
+11. Which of the given sorting technique is based on divide and conquer technique?
+
+1). Merge Sort
+2). Selection Sort
+3). Quick Sort
+4). Binary Sort
+Solution :
+option [1,3] are correct
+
+
+
+12. In what sequence following steps will be executed in binary search algorithm if mid=left+right/2?
+
+i.   Divide the array into two parts at the middle
+ii.  Compare the number with middle
+iii. If value to be searched is < then middle search in first half otherwise search in second half
+
+1). I,II,III
+2). II,I,III
+3). II,III,I
+4). I,III,II
+Solution :
+option [2] is correct
+
+
+
+13. While writing Unit Test cases, what all type of data needs to be considered?
+
+1). Invalid and Unexpected
+2). Valid and expected
+3). No data
+4). All of the above
+Solution :
+option [1,2] are correct
+
+
+14. Regression Testing involves?
+
+1). Checking if changes work as desired
+2). Checking if the changes have impacted existing functioning of software
+3). To check the presence of infinite loops
+4). None of the above
+Solution :
+option [1,2] are correct
+
+
+
+15. Which of the following statement is false regarding the Insertion sort algorithm?
+
+1). Implementation is very simple
+2). Efficient on small data set
+3). Having O(n2) efficiency
+4). Efficient on large data set
+Solution :
+option [4] is correct
+
+
+ 16. An independent program path is?
+
+1). One that executes statements that have not been executed before
+2). One that tests a condition on its true and false sides
+3). One that passes around a loop
+4). One that exercises independent input
+Solution :
+option [1] is correct
+
+
+17. Meena needs to protect her code from invalid data coming from an external ErrorHandling.js file.
+Which Defensive Programming Technique you will suggest Meena?            
+
+1). Input Validation
+2). Error Handling
+3). Debugging
+4). Error Checking
+5). Output Validation
+Solution :
+option [1] is correct
+
+
+18. Assume that a module has 200 lines of C code that contains if-then-else statements and 3 nested loops. 
+The best way to test this module would be to use?
+
+1). Basis path testing
+2). Loop testing
+3). Black-box testing
+4). Stress testing
+Solution :
+option [1,2] are correct
+
+
+19. Which is the correct order of functions ordered by increasing value of Big-Oh notation
+
+i. n, ii. log n, iii. n!  , iv. 100000000
+
+1). iii,iv,ii,i
+2). iv, i, iii,ii
+3). ii, i,iv,iii
+4). ii,i,iii,iv
+5). iv, ii, i iii
+Solution :
+option [5] is correct
+
+
+20. Which of the following is the worst case for sequential algorithm?
+
+1). O(logn)
+2). O(n)
+3). O(nlogn)
+4). O(n2logn)
+Solution :
+option [3] is correct
+
+
+21. What would be the correct way to write the subroutine that  accepts word as a parameter and 
+return its synonym (similar meaning word)?
+
+1). FindSynonym(string word)
+2). Bool FindString()
+3). Bool FindSynonym(string word)
+4). String FindSynonym(string word)
+Solution :
+option [4] is correct
+
+
+22. If the array has N elements, then how many comparisons are required on an average for Binary Search?
+
+1). N/2
+2). log2(N)
+3). log2(N/2)
+4). (N-1)/2
+Solution :
+option [2] is correct
+
+
+23. __________ represents the number of times basic operation in an algorithm is executed for input size n.
+
+1). Execution Time
+2). Order of Growth
+3). Algorithm Efficiency
+4). Space Efficiency
+Solution :
+option [3] is correct
+
+
+24. A well documented program is one which?
+
+1). Has a header block of comments
+2). Has inline comments to explain complex code
+3). Uses lowercase for constants
+4). Uses uppercase function names
+Solution :
+option [1,2] are correct
+
+
+25. If an efficiency of Algorithm X is O(n2) and Algorithm Y is O(n logn), which is more efficient?
+
+1). Algorithm X
+2). Algorithm Y
+Solution :
+option [2] is correct
+
+
+26. What is an efficiency of an algorithm, which is used to find out some of n elements stored in two dimensional matrix?
+
+1). O(n)
+2). O(n2)
+3). (n+1)/2
+4). O(n+1)
+Solution :
+option [2] is correct
+
+
+
+27. Hard coded constants reduces maintainability of the code.
+
+1). True 
+2). False
+Solution :
+option [1] is correct
+
+
+28. Match the following Refactoring Task to what they improve in the code?
+
+I. Architecture Refactoring
+II. Method Slicing
+III. Field Refactoring
+
+a. Coding styles
+b. Cohesion
+c. Readability
+
+1). I-a II-c III-b
+2). I-c II-a III-b
+3). I-b II-a III-c
+4). I-b II-c III-a
+Solution :
+option [4] is correct
+
+
+29. Which of the following programming standard increase readability of the code?
+
+1). Avoid using obscure code
+2). Dont declare/ Initialize variables 
+3). Add appropriate comments in the code
+4). Avoid using indentation
+Solution :
+option [1,3] are correct
+
+
+30. Your program should satisfy which of the following conditions?
+
+1). High coupling low cohesion
+2). High cohesion low coupling
+3). Low coupling low cohesion
+4). High coupling high cohesion
+Solution :
+option [2] is correct
+
+
+					ORACLE/SQL
+SET 1
+1. Evaluate this SQL statement
+
+SELECT emp.empno, (15*emp.sal) + (.5* emp.comm) + (.35* emp.sal) AS CALC_VALUE FROM emp;
+
+What will happen if you remove all the parentheses from the calculation? 
+
+1). The value displayed in the CALC_VALUE column will be lower than the one that we are getting with parenthesis.
+2). The value displayed in the CALC_VALUE column will be higher than the one that we are getting with parenthesis.
+3). There will be no difference in the values displayed in the CALC_VALUE column with or without parenthesis.
+4). An error will be reported if you remove the parenthesis from the calculation.
+Solution :
+option [3] is correct
+
+
+2. Identify the correct option to select all employees sorted dept-wise in ascending order 
+and within dept salary-wise in descending order for deptno 10 and 20.
+
+1). SELECT deptno, ename, sal FROM emp  WHERE deptno=10 or deptno = 20 ORDER BY deptno, sal DESC;
+2). SELECT deptno, ename, sal FROM emp  ORDER BY deptno, sal DESC WHERE deptno=10 or deptno = 20 ;
+3). SELECT deptno, ename, sal FROM emp  WHERE deptno=10 and deptno = 20 ORDER BY deptno, sal DESC;
+4). SELECT deptno, ename, sal FROM emp  WHERE deptno=10 or deptno = 20 ORDER BY deptno, ORDER BY sal desc;
+Solution :
+option [1] is correct
+
+3. Which are DML statements?
+
+1). COMMIT
+2). UPDATE
+3). DELETE
+4). CREATE
+Solution :
+option [2,3] are correct
+
+4. DESC TABLE_NAME is an example of?
+
+1). DML
+2). DCL
+3). DDL
+4). None of the above
+Solution :
+option [4] is correct
+
+5. From SQL*Plus, you issue this SELECT statement:                
+
+SELECT * FROM orders;
+You use this single SQL statement to retrieve data from a database table for ________.
+
+1). updating
+2). viewing 
+3). deleting
+4). truncating
+Solution :
+option [2] is correct
+
+6. Given the structure of the BOOK_MASTER Table  
+BOOK_ID VARCHAR2(20)
+BOOK_NAME VARCHAR2(30)
+what will be the output of the following  query 
+ SELECT book_name 
+ FROM Book_master
+ WHERE book_name LIKE '%JAVA%' OR '%C%'
+
+1). All books which has JAVA and C somewhere in the book name
+2). All books with book name starting with JAVA
+3). No output
+4). error in the query
+Solution :
+option [4] is correct
+
+7. SQL is a   ________.
+
+1). Non Procedural Language
+2). Procedure Language
+3). A pure OOP Language
+4). None of the above
+Solution :
+option [1] is correct
+
+8. SELECT staff_name || ' FROM '|| staff_address AS Staff
+FROM Staff_Master
+Above SQL statement executes without error.
+
+1). TRUE
+2). FALSE
+3). 0
+Solution :
+option [1] is correct
+
+9. On the EMP table, EMPNO is the primary key.  
+MGR is the ID of managers and refers to the EMPNO. 
+The JOB column is a NOT NULL column
+
+Evaluate this SELECT statement
+
+SELECT empno, ename, sal FROM emp WHERE deptno=&V_deptno AND job = '&V_JOB'
+
+What is true related to above SELECT statement when you execute it?       
+
+1). Values of the variables V_deptno and V_job will be obtained at runtime and substituted 
+in the SQL statement before execution of the statement
+2). You cannot use variables V_deptno and V_job in the given SELECT statement unless they 
+are defined with SQL*PLUS command. 
+3). You cannot specify substitution variables in the WHERE clause of the SELECT statement.
+4). Since there will be direct substitution, quotes are not required when you give input to V_job 
+at runtime during the execution of above SELECT statement.
+Solution :
+option [1,4] are correct
+
+10. Identify the correct option for the given statements related to the data models:
+
+1). In HDS data model, relationships between entities are represented as parent-child
+2). Network model is more complex than the hierarchical model because of links present.
+3). NDS is a subset of the Hierarchical model
+4). None of the above
+Solution :
+option [1,2] are correct
+
+SET2
+1. To produce a meaningful result set without any cartesian products, what is the minimum 
+number of conditions that should appear in the WHERE clause of a four-table join?
+
+1). 2
+2). 3
+3). 4
+4). There is no such criteria
+Solution :
+option [2] is correct
+
+2. Which statement/s is are true about USING clause?
+
+1). can be used instead of NATURAL JOIN if the columns have same name but different types
+2). You can use aliases for referring to column names
+3). All rows that have equal values in the matching columns are fetched
+4). It should be used to match just one column if there are more than one matching columns
+Solution :
+option [1,4] are correct
+
+3. I want to display information about departments and their locations, which of the following queries 
+will yield the correct results?
+
+1). SELECT department_id,department_name,location_name
+FROM departments,locations
+WHERE location_id=locations.location_id;
+2). SELECT department_id,department_name, location_name FROM departments,
+locations
+WHERE departments.location_id =locations.location_id;
+3). SELECT department_id,department_name,location_name
+FROM departments
+NATURAL JOIN locations;
+4). SELECT department_id,department_name,location_name
+FROM departments
+NATURAL JOIN locations ON location_id;
+Solution :
+option [2,3] are correct
+
+4. In which join, the comparison operator used in joining columns is other than equality operator?
+
+1). Self Join
+2). Non-Equi Join
+3). Equi Join
+4). Outer Join
+Solution :
+option [2] is correct
+
+5. Which statements correctly describe functions that are available in SQL?
+
+1). INSTR returns the numeric position of a named character
+2). NVL returns the first non-null expression in the expression list.
+3). TRANSLATE rounds the column, expression, or value to n decimal places
+4). TRIM trims the leading or trailing characters (or both) from a character string.
+Solution :
+option [1,4] are correct
+
+6. Identify the correct option to find the job-wise department-wise minimum 
+salary in the table EMP
+
+1). SELECT job,deptno,sal FROM emp GROUP BY job,deptno
+2). SELECT job,deptno ,MIN(sal) FROM emp GROUP BY job
+3). SELECT job,deptno ,sal FROM emp WHERE sal in SELECT MIN(sal) m FROM 
+     emp GROUP BY job,deptno
+4). SELECT job,deptno ,MIN(sal) FROM emp GROUP BY job,deptno
+Solution :
+option [4] is correct
+
+7. Examine the description of the STUDENTS table:
+
+STD_ID               NUMBER (4)
+COURSE_ID        VARCHAR2 (10)
+START_DATE      DATE
+END_DATE         DATE
+ Which two aggregate functions are valid on the START_DATE column? 
+
+1). SUM(start_date)
+2). AVG (start_date)
+3). COUNT (start_date)
+4). MIN (start_date)
+Solution :
+option [3,4] are correct
+
+8. Management has asked you to calculate the value 12* salary* commission_pct for all the 
+employees in the EMP table.
+
+The EMP table contains these columns:
+
+LAST_NAME                VARCHAR2 (35) NOT NULL
+SALARY                      NUMBER (9, 2)    NOT NULL
+COMMISSION_PCT      NUMBER (4, 2)
+
+Which statement ensures that a value is displayed in the calculated column for all employees?
+
+1). SELECT last_name, 12 * salary* commission_pct FROM emp;
+2). SELECT last_name, 12 * salary* (commission_pct,0)  FROM emp;
+3). SELECT last_name, 12 * salary* (nvl (commission_pct,0))  FROM emp;
+4). SELECT last_name, 12 * salary* (decode (commission_pct,0)) FROM emp;
+Solution :
+option [3] is correct
+
+9. Identify the correct option for the given statements related to Single-row functions:
+
+1). Single-row functions return a single result row for every row of a queried table or view
+2). Single-row functions can not appear in select lists, WHERE clauses and HAVING clauses.
+3). ADD_MONTHS, LAST_DAY are the single-row functions.
+4). None of the above
+Solution :
+option [1,3] are correct
+
+10. Which SELECT statement will get the result 'elloWorld' from the string 'HelloWorld'?
+
+1). SELECT SUBSTR ('HelloWorld', 1) FROM dual;
+2). SELECT INITCAP (TRIM ('HelloWorld', 1, 1)) FROM dual
+3). SELECT UPPER(SUBSTR ('HelloWorld', 2, 1)) FROM dual
+4). SELECT SUBSTR ('HelloWorld', 2) FROM dual
+Solution :
+option [4] is correct
+
+SET3
+1. Following are the correct terms associated with SEQUENCE:
+
+1). START WITH
+2). END WITH
+3). REPEAT
+4). INCREMENT BY
+Solution :
+option [1,4] are correct
+
+2. The database object that speeds up retrieval of data is:
+
+1). Index
+2). Sort
+3). View
+4). All the above     
+Solution :
+option [1] is correct
+
+3. Which statement explicitly names a constraint?
+
+1). ALTER TABLE student_grades ADD FOREIGN KEY (student_id) REFERENCES 
+students (student_id);
+2). ALTER TABLE student_grades ADD CONSTRAINT NAME=student_id_fk FOREIGN KEY 
+(student_id) REFERENCES students(student_id);
+3). ALTER TABLE student_grades ADD CONSTRAINT student_id_fk FOREIGN KEY 
+(student_id) REFERENCES students (student_id);
+4). ALTER TABLE student_grades ADD NAME student_id_fk FOREIGN KEY (student_id) 
+REFERENCES students (student_id);
+Solution :
+option [3] is correct
+
+4. The following operator checks whether subquery returns rows or not:
+
+1). ANY
+2). ALL
+3). Exists
+4). None of the above
+Solution :
+option [3] is correct
+
+5. In which scenario would an index be most useful?
+
+1). The indexed column is declared as NOT NULL.
+2). The indexed columns are used in the FROM clause
+3). The indexed columns are part of an expression in FROM clause
+4). The indexed column is frequently used in the condition specified in WHERE clause. 
+Solution :
+option [4] is correct
+
+6. Deletion of the database objects can be achieved using following command:
+
+1). DELETE
+2). TRUNCATE
+3). DROP
+4). All the above
+Solution :
+option [3] is correct
+
+7. A subquery is most often used to _________.
+
+1). create groups of data using order by clause
+2). sort data in a specific order
+3). converts data to a different format
+4). retrieves data based on an unknown condition
+Solution :
+option [4] is correct
+
+8. See the below data.
+
+EMP_ID        DEPT_ID           COMMISSION
+
+1                      10                         500
+2                      20                         1000
+3                      10
+4                      10                         600
+5                      30                         800
+6                      30                         200
+7                      10
+8                      20                         300
+
+The COMMISSION column shows the monthly commission earned by the employee.
+
+Which of the tasks would require sub queries or joins in order to be performed in a single step?
+
+1). deleting the records of employees who do not earn commission
+2). increasing the commission of employee 3 by the average commission earned in department 20
+3). finding the number of employees who do NOT  earn commission and are working for department 20
+4). inserting into the table a new employee 10 who works for department 20 and earns a commission 
+that is equal to the commission earned by employee 3
+Solution :
+option [2,4] are correct
+
+9. In which scenario would Top N analysis be the best solution?
+
+1). You want to rank the top three sales representatives who have sold the maximum number of products
+2). You want to find the manager supervising the largest number of employees
+3). You want to identify the person whose salary is less than the average salary of all employees
+4). You want to identify the most senior employee in the company
+Solution :
+option [1] is correct
+
+10. What does the TRUNCATE statement do?
+
+1). Removes the table
+2). Removes all records from a table
+3). Removes foreign keys from a table
+4). Removes selected records from a table which are satisfying WHERE clause condition.
+Solution :
+option [2] is correct
+
+
+SET 4
+1. A user enters the following  commands .  what would be the outcome ?           (Marks - 1)
+
+BEGIN
+                          Insert into (...........
+                          Insert into (...........)
+                          SAVEPOINT A
+                               Insert into (...........
+                               Insert into (...........)
+                               ROLLBACK ;
+                    END;
+
+1). This is an invalid transaction as commit is missing
+2). The transaction would be rolled back till the SAVEPOINT
+3). Complete  transactions would be rolled back
+Solution :
+option [3] is correct
+
+2. Which two statements about sequences are true?           
+
+1). You use a NEXTVAL pseudo column to look at the next possible value that would be 
+     generated from a sequence, without actually retrieving the value.
+2). You use a CURRVAL pseudo column to look at the current value just generated from 
+     a sequence, without affecting the further values to be generated from the sequence.
+3). You use a NEXTVAL pseudo column to obtain the next possible value from a sequence 
+     by actually retrieving the value form the sequence 
+4). You use a REUSE clause when creating a sequence to restart the sequence once it 
+     generates the maximum value defined for the sequence.
+Solution :
+option [2,3] are correct
+
+3. Identify the correct statements related to set operators.
+
+1). All set operators have equal precedence
+2). If a SQL statement contains multiple set operators, then Oracle Database evaluates 
+them from the left to right unless parentheses explicitly specify another order.
+3). Note that the UNION ALL operator returns only distinct rows that appear in either result, 
+while the UNION operator returns all rows
+4). None of the above
+Solution :
+option [1,2] are correct
+
+4. Which of the following statements are correct regarding INSERT command?
+
+1). In INSERT command, values for the columns should match data types of the respective columns in a table.
+2). In INSERT command, all columns except those declared as"NOT NULL" should be supplied with values.
+3). INSERT command is available in data control language.
+4). None of the above
+Solution :
+option [1] is correct
+
+5. Evaluate the set of SQL statements:
+
+Identify the correct queries to display ENAME and DNAME column records from tables 
+EMP and DEPT
+
+1). select ename, null from emp union select null,dname from dept
+2). select ename, dname from emp union select to_char(null),dname from dept
+3). select ename, to_char(0) from emp union select to_char(0), dname from dept
+4). select ename, deptno from emp union select deptno from dept
+Solution :
+option [1,3] are correct
+
+6. Examine the structure of the EMP table:
+
+Empno            NUMBER primary Key
+ENAME          VARCHAR2(25)
+Job                 VARCHAR2(25)
+HIRE_DATE     DATE
+Mgr                 Number
+
+You issue these statements:
+
+CREATE TABLE new_emp
+(employee_id NUMBER,
+name VARCHAR2 (30));
+
+Assume that EMP table is having 14 rows.
+
+INSERT into new_emp SELECT empno, ename FROM EMP;
+SAVEPOINT s1;
+DELETE new_emp;
+INSERT into new_emp VALUES(1,'AAA');
+INSERT into new_emp VALUES(2,'BBB');
+SAVEPOINT s2;
+DELETE FROM new_emp WHERE name ='BBB';
+ROLLBACK to s2;
+
+At the end of this transaction, what is true?
+
+1). You cannot use more than one savepoint in a single transaction.
+2). You have no rows in the table new_emp.
+3). You have only two records in table new_emp whose name field contains values 'AAA' and 'BBB'
+4). You have total 14 records in table new_emp same as EMP table
+Solution :
+option [3] is correct
+
+7. Which statements about Views are not true?
+
+1). DML operations can
+ be performed on 
+simple views
+2). DML operations 
+can be performed on 
+complex views
+3). DML operations 
+cannot be performed on
+complex views
+4). Cannot remove a row 
+if the view contains 
+a GROUP BY  clause
+Solution :
+option [2] is correct
+
+8. Statement A: UNION combines the results of two SELECT statements into one result set  with duplicate rows 
+Statement B: UNION ALL combines the results of two SELECT statements into one result set and eliminates duplicate rows from that result set
+
+1). Statement A is true & Statement B is false
+2). Statement A is false & Statement B is true
+3). Both Statements A & B are true
+4). Both Statement A & B are false
+Solution :
+option [4] is correct
+
+9. Which privileges are applicable on the Sequence object?
+
+1). SELECT
+2). UPDATE
+3). ALTER
+4). DELETE
+Solution :
+option [1,3] are correct
+
+10. Identify the correct statements regarding INSERT command:
+
+1). In INSERT command, values for the columns should match data types of the respective 
+     columns in a table.
+2). In INSERT command, all columns except those declared as?NOT NULL? should be 
+     supplied with values.
+3). INSERT command is available in data control language.
+4). None of the above
+Solution :
+option [1] is correct
+
+
+						WEB BASICS
+
+
+1
+Q. A form object can be accessed in which of the following ways?
+
+1). Form name
+2). Forms list
+3). Forms array
+4). Form set
+Solution :
+option [1,3] are correct
+
+2
+Q. If the checked attribute of checkbox is set, the property that will be true is?
+
+1). checked
+2). selected
+3). defaultChecked
+4). value
+Solution :
+option [3] is correct
+
+3
+Q. What would be the output of following JavaScript code?
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function getItems()
+{
+ var list=document.getElementById("myList");
+ var index;
+ var msg="My favorite fruits";
+ for (index=0;index<list.length;index++)
+   {
+    msg=msg + "\n" + list.options[index].text;
+   }
+ alert(msg);
+}
+</script>
+</head>
+<body>
+ <form>
+  Select your favorite fruit:
+     <select id="myList">
+   <option>Apple</option>
+   <option>Orange</option>
+   <option>Pineapple</option>
+   <option>Banana</option>
+     </select>
+  <br /><br />
+  <input type="button" onclick="getItems()" value="Output all options">
+ </form>
+</body>
+</html>
+
+1). The script will display all the items from the dropdown list box in the alert box
+2). The script will display user selected item from the dropdown list box in the alert box
+3). The script will not display anything as code witten for creating a dropdown list box should be written 
+before the JavaScript function getItems()
+4). Error - The name of the JavaScript function and the id of the dropdown list box should be same
+Solution :
+option [1] is correct
+
+4
+Q. Consider the following Regular Expression pattern:
+
+"Director.+[5-9]...$"
+
+Which of the following Strings will it match?
+
+1). Directorbbb4000
+2). Directorb9500
+3). Seniordirectorv7000
+4). Directorttt7000
+Solution :
+option [2,4] are correct
+
+5
+Q. To select the contents on text box we can use?
+
+1). onFocus()
+2). onSelect
+3). select()
+4). focus()
+Solution :
+option [3] is correct
+
+6
+Q. The property of form object that enables to specify where the output returned by the server 
+should be displayed.
+
+1). action
+2). target
+3). encoding
+4). submit
+Solution :
+option [2] is correct
+
+7
+Q. Which of the following is not a valid XML element name?
+
+1). <h2>
+2). <Data>
+3). <5Ruppes>
+4). All are invalid
+Solution :
+option [3] is correct
+
+8
+Q. Which of the following statements is true?
+
+1). All XML documents must have a schema
+2). All elements must have  proper closing tags
+3). All elements must be compulsorily  upper case
+4). All the statements are true
+Solution :
+option [2] is correct
+
+9
+Q. Which of the following events are common to Text Object and the Select Object?
+
+1). OnChange
+2). OnBlur
+3). OnClick
+4). OnMouseDown
+Solution :
+option [1,2] are correct
+
+10
+Q. Which property of the location object refers to an anchor located in the document?
+
+1). location.host
+2). location.protocol
+3). location.href
+4). location.hash
+Solution :
+option [4] is correct
+
+11
+Q. If a function does not have parameters in declaration but when it is called the parameters are passed. 
+The parameters can then be extracted using?
+
+1). Parameters array
+2). Arguments array
+3). Object array
+4). This is not permitted
+Solution :
+option [2] is correct
+
+12
+Q. If no parameters are specified for a Date object explicitly then it is assigned to?
+
+1). Today's Date
+2). First date of the current month
+3). First date of the current year
+4). Null
+Solution :
+option [1] is correct
+
+13
+Q. What will be the output of the below code?
+
+<script type="text/javascript">
+var course=["JavaScript","HTML","XHTML"]; 
+
+var courses=course.join(",");
+document.write(courses);
+</script>
+
+1). JavaScript,HTML,XHTML
+2). Displays a blank page
+3). Invalid JavaScript
+4). JavaScript HTML XHTML
+Solution :
+option [1] is correct
+
+14
+Q. Which of the following are valid code for creating an array in JavaScript?
+
+1). <script type="text/javascript">
+ var courses=new Array(); 
+ courses[0]="JavaScript";       
+ courses[1]="HTML";
+ courses[2]="XHTML";
+ </script>
+2). <script type="text/javascript">
+ var courses=new Array("JavaScript","HTML","XHTML"); 
+</script>
+3). <script type="text/javascript">
+ var courses=("JavaScript","HTML","XHTML"); 
+ document.write(courses[1]);
+</script>
+4). <script type="text/javascript">
+ var courses=["JavaScript","HTML","XHTML"]; 
+</script>
+5). <script type="text/javascript">
+ var courses=new Array{"JavaScript","HTML","XHTML"}; 
+</script>
+Solution :
+option [1,2,4] are correct
+
+15
+Q. A JavaScript code can be written on?
+
+1). Server Side
+2). Client Side
+3). Middle Tier
+4). Not known
+Solution :
+option [1,2] are correct
+
+16
+Q. The script tag can be written in?
+
+1). Head Section
+2). Body Section
+3). External file
+4). All the above
+Solution :
+option [4] is correct
+
+17
+Q. What will be the output if we run this script at 11 AM?
+      
+<!DOCTYPE html> 
+<html>
+<body>
+<script type="text/javascript">
+ var now = new Date();
+ var time = now.getHours();
+ //document.write(time);
+ document.write("<br />");
+ if ((time < 10) && (time > 12))
+ {
+  document.write("<b>Good Morning!!!</b>");
+ }
+ else if((time < 12) && (time > 16))
+ {
+  document.write("<b>Good Afertnoon!!!</b>");
+ }
+ else
+ {
+  document.write("<b>Good Evening!!!</b>");
+ }
+</script>
+</body>
+</html>
+
+1). Good Morning!!!
+2). Good Afternoon!!!
+3). Good Evening!!!
+4). None of the above
+Solution :
+option [3] is correct
+
+18
+Q. Which property of history object retrieves Number of items in the history list?
+
+1). count 
+2). size
+3). length
+4). None of above
+Solution :
+option [3] is correct
+
+19
+Q. The correct syntax for referring to an external script called "xxx.js"?
+
+1). <script name="xxx.js">
+2). <script href="xxx.js">
+3). <script src="xxx.js">
+4). <link src="xxx.js">
+Solution :
+option [3] is correct
+
+20
+Q. Which is the method to convert user input into a float value ?
+
+1). parseString
+2). parseNumber
+3). parseFloat
+4). parseObject
+Solution :
+option [3] is correct
+
+21
+Q. What of the following statement is correct about the  given selector statement?
+Div.p
+
+1). Selects all the div tag and p tags
+2). Selects all the div tag having class "P"
+3). Selects the div tag having id "p"
+4). Selects all the p tags inside div tag
+Solution :
+option [2] is correct
+
+22
+Q. Choose the following attribute which can be used to specify image as background of an element?
+
+1). background-color
+2). background-attachment
+3). background-image
+4). background-audio
+Solution :
+option [1,2,3] are correct
+
+23
+Q. Which of the following will display the text box with a back ground in blue color?
+
+1). <!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+text{background-color:blue;}
+</style>
+<title>Hello</title>
+</head>
+<body>
+ Customer Name: <input id="name" type="text" name="name"/>
+</body>
+</html>
+2). <!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+input{background-color:blue;}
+</style>
+<title>Hello</title>
+</head>
+<body>
+ Customer Name: <input type="text" name="name"/>
+</body>
+</html>
+3). <!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+type{background-color:blue;}
+</style>
+<title>Hello</title>
+</head>
+<body>
+ Customer Name: <input type="text"  name="name"/>
+</body>
+</html>
+4). <!DOCTYPE html>
+<html>
+<head>
+<title>Hello</title>
+</head>
+<body>
+ Customer Name: <input id="name" type="text" style="{background-color:blue;}" name="name"/>
+</body>
+</html>
+Solution :
+option [2] is correct
+
+24
+Q. Which of the following will correctly select the input tag Element which has the focus?
+
+1). input[name]
+2). input:focus
+3). :focus
+4). input:autofocus
+Solution :
+option [2] is correct
+
+25
+Q. Which of the following attribute can be used to specify image as background of an element?
+
+1). background-image
+2). background-img
+3). image
+4). img
+Solution :
+option [1] is correct
+
+26
+Q. A style format can be applied to the tags by using __________.
+
+1). <format>
+2). <style>
+3). <decoration>
+4). Any of the above can be used
+Solution :
+option [2] is correct
+
+27
+Q. Which of the following HTML5 element is used to display bulleted list ?
+
+1). <ul>
+2). <ol>
+3). <dl>
+4). <dd>
+Solution :
+option [1] is correct
+
+28
+Q. How to select the input tag  element having attribute name to apply the CSS style?
+
+1). input[name]
+2). input name
+3). input{name}
+4). :input[name]
+Solution :
+option [1] is correct
+
+29
+Q. Which of these samples of code will remove the underline from hyperlinks?
+
+1). a{
+     list-style-type: none;
+     }
+2). a {
+     text-decoration: no-underline;
+     }
+3). a {
+     text-decoration: none;
+     }
+4). a{
+     text-style-type: no-underline;
+     }
+Solution :
+option [3] is correct
+
+30
+Q. How to add comment in the style sheet?
+
+1). <!--   comment -->
+2). /*   comment  */
+3). //
+4). you can not give comment in style sheet
+Solution :
+option [2] is correct
+
+31
+Q. How to append CC and BCC mail addresses, in the link of mailto?
+
+1). Using !
+2). Using @
+3). Using ^
+4). Using &
+Solution :
+option [4] is correct
+
+32
+Q. <!DOCTYPE html>
+<html>
+<title>Welcome</title>
+<body>
+      <img src="D:\Data\SAM_2080.jpg" alt="My India">
+</body>
+</html>
+
+Consider the above code and assume that the file is not found in the given path. 
+What will be the output?
+
+1). Error in the code
+2). The text "My India" is displayed
+3). Neither error nor text is displayed
+4). An error occurs while dispaying the web page
+Solution :
+option [2] is correct
+
+33
+Q. Text between<EM> and </EM> is displayed as?
+
+1). bold
+2). italic
+3). bold-italic
+4). indented
+Solution :
+option [2] is correct
+
+34
+Q. Which of the following code snippet is correct to get the following output? 
+
+
+
+1). <table border="2">
+ <th>Department Name</th><th>Employee Name</th><th>Salary</th>
+ <tr><td colspan="2">HR</td><td>Lathika</td><td>55000</td></tr>
+ <tr><td>Sandeep</td><td>32000</td></tr>
+ <tr><td colspan="3">Sales</td><td>Sonia</td><td>43000</td></tr>
+ <tr><td>Raju</td><td>30022</td></tr>
+ <tr><td>Ajay</td><td>99932</td></tr>
+ 
+ <tr></tr>
+ </table>
+2). <table border="2">
+ <th>Department Name</th><th>Employee Name</th><th>Salary</th>
+ <tr rowspan="2"><td>HR</td><td>Lathika</td><td>55000</td></tr>
+ <tr><td>Sandeep</td><td>32000</td></tr>
+ <tr rowspan="3"><td >Sales</td><td>Sonia</td><td>43000</td></tr>
+ <tr><td>Raju</td><td>30022</td></tr>
+ <tr><td>Ajay</td><td>99932</td></tr>
+3). <table border="2">
+ <th>Department Name</th><th>Employee Name</th><th>Salary</th>
+ <tr><td rowspan="2">HR</td><td>Lathika</td><td>55000</td></tr>
+ <tr><td>Sandeep</td><td>32000</td></tr>
+ <tr><td rowspan="3">Sales</td><td>Sonia</td><td>43000</td></tr>
+ <tr><td>Raju</td><td>30022</td></tr>
+ <tr><td>Ajay</td><td>99932</td></tr>
+ 
+ <tr></tr>
+ </table>
+4). None of the above
+Solution :
+option [3] is correct
+
+35
+Q. Which of the following will open a page in new window?
+
+1). <a href="register.html" target="_self">Register</a>
+2). <a href="register.html" target="_top">Register</a>
+3). <a href="register.html" target="_blank">Register</a>
+4). <a href="register.html" target="_parent">Register</a>
+Solution :
+option [3] is correct
+
+36
+Q. Which of the following is false about <aside> tag in HTML-5?
+
+1). The <aside> tag is new in HTML5
+2). The <aside> content could be placed as a sidebar in an article
+3). The <aside> tag is  in HTML4
+4). The <aside> tag defines some content aside from the content it is placed in
+Solution :
+option [3] is correct
+
+37
+Q. To create a link to a bookmark (bkname) on a page home.html you can use ________.
+
+1). <a href=#bkname>
+2). <a href="home.html#bkname">
+3). <bookmark href="home.html">#bkname</bookmark>
+4). <a href ="home.html; bookmark=#bkname">
+Solution :
+option [2] is correct
+
+38
+Q. Which of the following is the correct way, if we want Password to be validated with 
+alphanumeric characters? 
+
+Example: igate123
+
+1). Password<input type="password" name="txtPassword" 
+   pattern="^[0-9a-zA-Z]+$" title=
+     "Only alphanumeric characters are allowed">
+2). Password<input type="password" name="txtPassword" 
+  patterns="^[0-9a-zA-Z]+$" title=
+    "Only alphanumeric characters are allowed">
+3). Password<input type="password" name="txtPassword" 
+  regex="[0-9a-zA-Z]" title=
+     "Only alphanumeric characters are allowed">
+4). Password<input type="password" name="txtPassword" 
+  limit="[0-9a-zA-Z]]" title=
+   "Only alphanumeric characters are allowed">
+Solution :
+option [1] is correct
+
+39
+Q. How can you make a list that lists the items with number?
+
+1). <dl>
+2). <ol>
+3). <list>
+4). <ul>
+Solution :
+option [2] is correct
+
+40
+Q. What will be output of the following code?
+
+<h4>Circle bullets list:</h4>
+<ol type="A">
+ <li >Apples</li>
+ 
+<li value="7">Bananas</li>
+ <li>Lemons</li>
+ <li>Oranges</li>
+</ol>
+
+1). It will Display Default type of unordered list
+2). Display sequence A,7,8,9
+3). Display sequence A,B,C,D
+4). Display sequence  A,G,H,I
+Solution :
+option [4] is correct

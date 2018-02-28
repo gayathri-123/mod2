@@ -1,0 +1,1513 @@
+
+Q1. This is a process of determining whether output of one phase of development conforms to its previous phase. 
+ 
+
+ 
+ 1). Interactivity 
+
+ 2). Aesthetics 
+
+ 3). Validation 
+
+ 4). Verification 
+ 
+Solution :
+option  [4]  is correct
+
+
+
+
+Q2. Which of the following are true for code inspection? 
+
+
+ 
+ 1). Enable the code to be tested before the execution environment is ready 
+
+ 2). Can be performed by the person who wrote the code 
+
+ 3). It is a group code reading 
+
+ 4). The objective is to find the solutions to the errors 
+ 
+Solution :
+option  [3]  is correct 
+
+
+Q3. Which of the following is TRUE about Software Testing? 
+ 
+
+ 
+ 1). Software Testing contributes to the delivery of higher quality software product. 
+
+ 2). The mission of the test team is not merely to perform testing, but to help minimize the risk of product failure. 
+
+ 3). Testing is defect prevention 
+
+ 4). Testing should intentionally attempt to make things go wrong to determine if things happen 
+ when they shouldn't or things don't happen when they should.
+ 
+
+ 5). Testing in itself can ensure the quality of software. 
+ 
+Solution :
+option  [1,2,4,5]  are correct 
+
+
+Q4. Given the Following program:
+
+ IF X < Y 
+ THEN Statement 1; 
+ ELSE IF Y >= Z 
+ THEN Statement 2; 
+ END 
+
+ McCabe's Cyclomatic Complexity is ___________. 
+ 
+
+ 
+ 1). 2 
+
+ 2). 3 
+
+ 3). 4 
+
+ 4). 5 
+ 
+Solution :
+option  [2]  is correct
+
+
+Q5. Which of the following is NOT white box technique? 
+ 
+
+ 
+ 1). Statement testing 
+
+ 2). Path testing 
+
+ 3). Data flow testing 
+
+ 4). State transition testing 
+ 
+Solution :
+option  [4]  is correct 
+
+
+Q6. Following is/are formula for determining cyclomatic complexity: 
+ 
+
+ 
+ 1). V(G) =P 
+
+ 2). V(G)=R 
+
+ 3). V(G)=P+1 
+
+ 4). V(G) = E - N + 2 
+ 
+Solution :
+option  [2,3,4]  are correct
+
+
+Q7. Identify the below given option/s to conduct the  testing process.
+
+ 1. By examining the users' requirements
+ 2. By reviewing the artifacts like design documents.
+ 3. By executing code 
+ 
+
+ 
+ 1). 1 only 
+
+ 2). 2 & 3 only 
+
+ 3). 1, 2, 3 only 
+
+ 4). 1 & 3 only 
+ 
+Solution :
+option  [3]  is correct
+
+
+Q8. Which of the following are the characteristics of good test case? 
+ 
+
+ 
+ 1). Good test case has a high probability of detecting error(s) 
+
+ 2). Help managers make ship or no-ship decisions 
+
+ 3). Good test case minimize bug count 
+
+ 4). Good test case increases technical support costs 
+ 
+Solution :
+option  [1,2]  are correct 
+
+
+Q9. Which of the following is not an example for memory leak? 
+ 
+
+ 
+ 1). void test()
+ {
+ int* p1=new int;
+ int * p2=p1;
+ delete p1;
+ delete p1;
+ } 
+
+ 2). void test()
+ {
+ int* p1=new int;
+ int * p2;
+ } 
+
+ 3). void test()
+ {
+ int* p1=new int;
+ p2=p1;
+ delete p1;
+ delete p2;
+ } 
+
+ 4). void test()
+ {
+ int* p1=new int;
+ int * p2=p1;
+ delete p1;
+ delete p2;
+ } 
+ 
+Solution :
+option  [4]  is correct 
+
+
+Q10. Which expression best matches the following characteristics or review processes?
+
+ s) Inspection
+ t) Peer review
+ u) Informal review
+ v) Walkthrough
+
+ 1. Led by author
+ 2. Undocumented
+ 3. No management participation
+ 4. Led by a trained moderator or leader 
+ 
+
+ 
+ 1). s = 4, t = 3, u = 1  v = 2 
+
+ 2). s=4, t=1, u=2, v=3  
+
+ 3). s = 4  t = 1, u = 2, v = 3 
+
+ 4). s = 4 , t = 3, u = 2, v = 1 
+ 
+Solution :
+option  [4]  is correct 
+
+
+
+Q11. Which of the following are the equivalence classes for the following problem?
+ An integer field accepts values from 1 to 15 (including 1 and 15) 
+ 
+
+ 
+ 1). Less than 1, 1 through 15, more than 15 
+
+ 2). Negative numbers, 1 through 15, above 15 
+
+ 3). Less than 1, 1 through 14, more than 15 
+
+ 4). Less than 0, 1 through 14, 15 and more 
+ 
+Solution :
+option  [1]  is correct 
+
+
+Q12. In which type of testing, the following errors can be identified?
+
+ 1. Incorrect or missing functions
+ 2. Interface errors between UI.
+ 3. Behavior or performance errors
+ 4. Functional defects 
+ 
+
+ 
+ 1). Black Box Testing 
+
+ 2). White Box Testing 
+
+ 3). Static Testing 
+
+ 4). Stress Testing 
+ 
+Solution :
+option  [1]  is correct 
+
+
+Q13. Identify the below given correct option about static testing.
+
+ 1. It is the process of confirming whether the software meets its requirement specification
+ 2. It is the process of confirming whether the software meets user requirements. 
+ 3. It is conducted to prevent defects
+ 4.It is conducted to correct the defects 
+ 
+
+ 
+ 1). 1 & 4 only 
+
+ 2). 1 & 3 only 
+
+ 3). 2 & 3 only 
+
+ 4). 2 & 4 only 
+ 
+Solution :
+option  [2]  is correct 
+
+
+
+ Q14. Consider following scenario:
+
+ The "Print message" is function that read two characters and, depending on their values, appropriate action must be taken.
+
+ The first character must be an "A" or a "B".
+ The second character must be a digit.
+ If the first character is an "A" or "B" and the second character is a digit, the file must be updated.
+ If the first character is incorrect (not an "A" or "B"), the message X must be printed.
+ If the second character is incorrect (not a digit), the message Y must be printed.
+ From the above scenario, find out the causes and effects. 
+
+
+ 
+ 1). Causes:
+ C1 - First character is A 
+ C2 - Second character is a digit
+
+ Effects:
+ E1 - Update the file
+ E2 - Print message "X"
+ E3 - Print message "Y" 
+
+ 2). Causes:
+ C1 - First character is A
+ C2 - First character is B
+ C3 - Second character is a digit
+
+ Effects:
+ E1 - Update the file
+ E2 - Print message "X"
+ E3 - Print message "Y" 
+
+ 3). Causes:
+ C1 - First character is A or B
+ C2 - Second character is a digit
+
+ Effects:
+ E1 - Print message "X"
+ E2 - Print message "Y" 
+
+ 4). Causes:
+ C1 - First character is A
+ C2 - First character is B
+ C3 - Second character is a digit
+
+ Effects:
+ E1 - Print message "X"
+ E2 - Print message "X"
+ 
+ 
+Solution :
+option  [2]  is correct 
+
+
+
+
+Q15. Consider the below statements:
+
+ Statement 1: A good test case has a high probability of detecting errors
+ Statement 2: The probability of the existence of more errors in a section of a program is unproportional 
+                             to the number of errors already found in that section
+ Statement 3: It is impossible to create test cases to represent all valid cases
+
+ Identify the correct option based on the above statements. 
+ 
+
+ 
+ 1). Only Statement 1 & Statement 2 are True 
+
+ 2). Only Statement 1 & Statement 3 are True 
+
+ 3). Only Statement 2 & Statement 3 are True 
+
+ 4). All statements are True 
+
+ 5). All statements are False 
+ 
+Solution :
+option  [2]  is correct 
+
+
+
+Q16. Complete the following statement:
+
+ Error guessing is best used... 
+ 
+
+ 
+ 1). As the first approach to deriving test cases 
+
+ 2). After more formal techniques have been applied 
+
+ 3). By an experienced tester 
+
+ 4). After the system has gone live 
+
+ 5). Only by the end users 
+ 
+Solution :
+option  [2,3]  are correct 
+
+
+
+Q17. An input field takes the year of birth between 1900 and 2004. 
+ The boundary values for testing this field are: 
+ 
+
+ 
+ 1). 0,1900,2004,2005 
+
+ 2). 1900, 2004 
+
+ 3). 1899,1900,2004,2000 
+
+ 4). 1899, 1900, 1901,2003,2004,2005 
+ 
+Solution :
+option  [4]  is correct 
+
+
+
+Q18. Fill in the blank:
+
+ To check whether we are developing the right product according to the customer requirements are not 
+ and it is a static process which is called as____________. 
+ 
+
+ 
+ 1). Verification 
+
+ 2). Validation 
+
+ 3). Quality Assurance 
+
+ 4). Automation Testing 
+ 
+Solution :
+option  [1]  is correct 
+
+
+Q19. Match the following:
+
+ 1. Test case
+ 2. Data Coordinator
+ 3. Test Data Engineer
+
+ A. Help managers make ship / no-ship decisions.
+ B.Point of contact between main stakeholders.
+ C. Responsible to create the data as per the requirement 
+ D. Providing help in handling, managing and manipulating test data 
+ 
+
+ 
+ 1). 1-C,2-D,3-A&B 
+
+ 2). 1-A,2-B & D,3-C 
+
+ 3). 1-D,2-C & A,3-B 
+
+ 4). 1-A & D,2-C,3-B 
+ 
+Solution :
+option  [2]  is correct 
+
+
+Q20. Which of the following are NOT the best practice for test case maintenance? 
+ 
+
+ 
+ 1). The projects can design a test case template to be used to write test cases as per their project's 
+ testing requirements 
+
+ 2). The test cases can be stored on testing team lead's system with full access to all those are involved 
+ in the project 
+
+ 3). Appropriate Training for Testers should be given for Test Case Authoring / Reviews / Executions 
+ / Maintenance 
+
+ 4). It is a good practice to use version control tool for managing changes in the test cases 
+ 
+Solution :
+option  [1,2]  are correct 
+
+
+Q21. Which type of testing aims at showing that the software works as expected? 
+ 
+
+ 
+ 1). Positive Testing 
+
+ 2). Negative Testing 
+
+ 3). Basic Testing 
+
+ 4). Alternate Testing 
+ 
+Solution :
+option  [1]  is correct 
+
+
+Q22. Identify the valid & invalid equivalence classes:
+
+ If an input condition specifies that the variable "Qty" can take the values that ranges between 555-1555. 
+ 
+
+ 
+ 1). Valid-(554<qty<1556)
+ Invalid-(qty <554) or (qty>1556) 
+
+ 2). Valid-(555<qty<1555)
+ Invalid-(qty <555) or (qty>1555) 
+
+ 3). Valid-(555=<qty<=1555)
+ Invalid-(qty <555) and (qty>1555) 
+
+ 4). Valid-(554<qty<1556)
+ Invalid-(qty <554) and (qty>1556) 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+Q23. Complete the following statement :
+
+ "The test conditions are derived from " 
+ 
+
+ 
+ 1). Test Design 
+
+ 2). Test Cases 
+
+ 3). Test Data 
+
+ 4). Requirements Specification 
+ 
+Solution :
+option  [4]  is correct
+
+
+
+Q24. Given the following program :
+
+ IF A = 10 THEN 
+  IF B > C THEN 
+    A = B
+  ELSE
+    A = C
+  ENDIF
+ ENDIF
+ Print A
+ Print B
+ Print C
+
+ Calculate McCabe's Cyclomatric Complexity? 
+ 
+
+ 
+ 1). 2 
+
+ 2). 4 
+
+ 3). 5 
+
+ 4). 3 
+ 
+Solution :
+option  [4]  is correct 
+
+
+
+Q25. Consider following scenario:
+
+ The value of the User Name field for applications and web pages must contain less than 50 characters. 
+ To check the behavior of the application, which of the following testing type will be applicable 
+ when tester enters more characters into the field than is allowed? 
+ 
+
+ 
+ 1). Exhaustive Testing 
+
+ 2). Alternate Testing 
+
+ 3). Negative Testing 
+
+ 4). Basic Testing 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+
+Q26. Complete the following sentence:
+
+ A set of individual test cases/scenarios that are executed as a package, in a particular sequence and 
+ to test a particular aspect is called as__________. 
+ 
+
+ 
+ 1). Test cycle 
+
+ 2). Test Condition 
+
+ 3). Test Case 
+
+ 4). Test Suit 
+ 
+Solution :
+option  [4]  is correct 
+
+
+
+
+Q27. A program validates a numeric field as follows:
+
+ I.  Values less than 10 are rejected 
+ II. Values between 10 and 21 are accepted
+ III. Values greater than or equal to 22 are rejected
+
+ Which of the following input values cover all of the equivalence partitions? 
+ 
+
+ 
+ 1). 10,11,21 
+
+ 2). 3,20,21 
+
+ 3). 3,10,22 
+
+ 4). 10,21,22 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+Q28. Match the following:
+
+ 1. Usability testing
+ 2. User Acceptance Testing
+ 3. Recovery testing 
+ 4. Documentation Testing
+
+
+  A. Not a responsibility of the Developing Organization
+  B. Effectiveness of user interfaces
+  C. Maintenance guides
+  D. Restarts are evaluated for correctness 
+ 
+
+ 
+ 1). 1- A, 2-C, 3-D, 4-B 
+
+ 2). 1- B, 2-A, 3-C, 4-D 
+
+ 3). 1- B, 2-A, 3-D, 4-C 
+
+ 4). 1- A, 2-D, 3-C,4-B 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+Q29. This is conducted by business owners and users to confirm that the system does, in fact, 
+ meet their business requirements. 
+ 
+
+ 
+ 1). Unit testing 
+
+ 2). System testing 
+
+ 3). Acceptance testing 
+
+ 4). Integration testing 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+Q30. Which of the following is not a test environment? 
+ 
+
+ 
+ 1). Unit Test Environment 
+
+ 2). Replication Test Environment 
+
+ 3). Assembly/Integration Test Environment 
+
+ 4). System/Functional/QA Test Environment 
+
+ 5). User Acceptance Test Environment 
+
+ 6). Production Environment 
+ 
+Solution :
+option  [2]  is correct
+
+
+
+Q31. Which of the following are components of test plan?
+
+ 1. Software Risk Issues
+ 2. Test approach
+ 3. Test Items
+ 4. Test Deliverables 
+ 
+
+ 
+ 1). 1, 2 & 3 
+
+ 2). 2 & 3 only 
+
+ 3). 1 & 3 only 
+
+ 4). 1, 2, 3 & 4 
+ 
+Solution :
+option  [4]  is correct 
+
+
+
+Q32. Consider the following statements regarding Regression Test and select the most appropriate option 
+ which hold TRUE about the  same.                     
+
+ Regression Testing should be performed:
+
+ V. Every week 
+ W.After software has undergone changes 
+ X. As often as possible
+ Y. When the environment has changed
+ Z. When Project Manager says 
+ 
+
+ 
+ 1). V & W are true, X & Z are false 
+
+ 2). W, X & Y are true, V & Z are false 
+
+ 3). W & Y are true, V, X & Z are false 
+
+ 4). W is true, V, X, Y and  are false 
+
+ 5). All the above statements are true 
+ 
+Solution :
+option  [3]  is correct 
+
+
+Q33. State whether the following statement is TRUE or FALSE?
+ "Bugzilla offers Advanced query tool that can remember your searches"                     
+
+ 
+ 
+
+ 
+ 1). TRUE 
+
+ 2). FALSE 
+ 
+Solution :
+option  [1]  is correct 
+
+
+
+Q34. Consider the following scenario:
+ Priyanka was testing an application and reported a bug with high severity. Later she realised that the bug reported was incorrect and the related requirement has been de-scoped from the current release. After viewing this bug, the developer will mark the status of this bug as ________. 
+ 
+
+ 
+ 1). Rejected 
+
+ 2). Invalid 
+
+ 3). Not in scope 
+
+ 4). Duplicate 
+ 
+Solution :
+option  [1]  is correct
+
+
+
+Q35. Which of the following is not 
+ important from the test perspective regarding effective defect reporting? 
+ 
+
+ 
+ 1). Improve the credibility of the test
+ 
+
+ 2). Reduce the defect life cycle
+ 
+
+ 3). Improve productivity
+ 
+
+ 4). Get better response from the development team
+ 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+
+Q36. Complete the following sentence:
+ "The reasons for defective reports are:"                     
+
+ 
+ 
+
+ 
+ 1). Already reported (Duplicate) 
+
+ 2). Some one else is responsible 
+
+ 3). Details provided are clear 
+
+ 4). Functionality is not as per requirement 
+ 
+Solution :
+option  [1,2]  are correct 
+
+
+
+
+Q37. Which of the
+  following are a feature of Redmine?
+ A) Role based access
+  control
+ B) Gantt charts and calendar
+ C) Support for one project at a time
+ D) Permissions system
+ E) Efficient time tracking 
+ 
+
+ 
+ 1). A,B,D 
+
+ 2). A,B,E 
+
+ 3). B,C,E 
+
+ 4). A,B,C,D,E 
+
+ 5). A,D,E 
+ 
+Solution :
+option  [2]  is correct 
+
+
+
+
+Q38. If wrong severity is
+  assigned to a defect by the tester, what implications can it have? 
+ 
+
+ 
+ 1). Affects go/no go
+  decisions for the release of the product. 
+
+ 2). Affects credibility
+  of development team. 
+
+ 3). Affects the 
+ decision to defer fix to next release. 
+
+ 4). Fixing of other related 
+ defects might get affected. 
+ 
+Solution :
+option  [1,2,3]  are correct 
+
+
+
+
+Q39. Fill in the blank:
+
+ In a defect report, providing correct pointers in the logs, dumps will help the developer to _________ 
+ the issue effectively. 
+ 
+
+ 
+ 1). Debug 
+
+ 2). Isolate the bug 
+
+ 3). Assess the impact of the bug 
+
+ 4). Understand other related defects 
+ 
+Solution :
+option  [1]  is correct
+
+
+
+
+Q40. Which of the following is not located on the home page user interface of Bugzilla? 
+ 
+
+ 
+ 1). Search 
+
+ 2). File a Bug 
+
+ 3). Log In as Administrator 
+
+ 4). Quick Search 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+
+Q41. There is an on-line Club Information System (CIS).
+ Actor: A member of the club
+ Use case: The member is searching for club events on a particular date.
+ Preconditions: The member is at the CIS home page, but not logged in as a member.
+
+ Arrange the following statements in proper sequence:
+
+ 1. System presents a page with choice of dates for the current month
+ 2. Member selects an event
+ 3. System presents a page with events for that date, giving time and club name
+ 4. Member selects a date from among the choices
+ 5. System presents a page with details of that event, including location, description and cost
+ 6. Member selects "Search Events" on home page 
+ 
+
+ 
+ 1). 6, 3, 2, 1, 4, 5 
+
+ 2). 5, 2, 3, 4, 1, 6 
+
+ 3). 6, 1, 4, 3, 2, 5 
+
+ 4). 5, 4, 1, 2, 3, 6 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+Q42. Complete the following sentence:
+
+ Use Case modeling is: 
+ 
+
+ 
+ 1). Set of all use cases, actors & interactions within a system 
+
+ 2). Only non functional description of a system 
+
+ 3). Capable to capture how system will perform a function 
+
+ 4). Useful for gathering behavioral aspects and documenting functionality 
+ 
+Solution :
+option  [1,4]  are correct
+
+
+
+Q43. What are the exceptional flow for using Vending machine for tea?
+
+ 1. Cups are unavailable
+ 2. Desired option on vending machine is working
+ 3. Water is available
+ 4. Desired option on vending machine is not working.
+ 5. No power supply to the machine 
+ 
+
+ 
+ 1). 1, 2, 4, 5 
+
+ 2). 1, 4, 5 
+
+ 3). 2, 3, 5 
+
+ 4). 2, 4, 5 
+ 
+Solution :
+option  [2]  is correct 
+
+
+
+Q44. This is an entity that is external to the system and directly interacts with the system, deriving some benefits 
+ from the interaction. 
+ 
+
+ 
+ 1). Action 
+
+ 2). Actor 
+
+ 3). Goal 
+
+ 4). Use case 
+ 
+Solution :
+option  [2]  is correct
+
+
+
+Q45. What are the exceptional flow for using ATM machine for deposit?
+
+ 1. Envelop is not available
+ 2. ATM card pin is invalid
+ 3. Network error  
+ 4. Amount is deposited and acknowledged slip is generated
+ 5. Due to server error, screen is not displayed. 
+
+
+ 
+ 1). 1, 2, 4 
+
+ 2). 2, 3, 4 
+
+ 3). 2, 3, 5 
+
+ 4). 1,2,4,5 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+
+Q46. This is what an ACTOR wants to get with the help of the system: 
+ 
+
+ 
+ 1). Goal 
+
+ 2). Action 
+
+ 3). Interaction 
+
+ 4). Scenario 
+ 
+Solution :
+option  [1]  is correct
+
+
+
+
+Q47. Consider below given scenario:
+
+ There is an ATM system. User wants to refill mobile card through it. Identify primary actor/s: 
+ 
+
+ 
+ 1). Mobile 
+
+ 2). Customer 
+
+ 3). Mobile card 
+
+ 4). ATM system 
+ 
+Solution :
+option  [2]  is correct 
+
+
+
+
+Q48. Fill in the blank:
+
+ When things unexpectedly go wrong, __________ occurs. 
+ 
+
+ 
+ 1). Exception 
+
+ 2). Error 
+
+ 3). Variation 
+
+ 4). All of the above 
+ 
+Solution :
+option  [2]  is correct 
+
+
+
+
+Q49. Following are the weak verbs: 
+ 
+
+ 
+ 1). Report 
+
+ 2). Calculate 
+
+ 3). Create 
+
+ 4). Find 
+ 
+Solution :
+option  [1,4]  are correct 
+
+
+
+
+Q50. There is an online Airline Reservation System having functionality of Search for flight, Make reservation, 
+ Purchase ticket, Cancel reservation. 
+
+ Arrange the following statements in proper sequence to make reservation:
+
+ 1. Displays the details of the reservation.
+ 2. Enters a credit card number, the cardholder name and the credit card expiration date and clicks the "Submit" button.
+ 3. Selects the "Book This Flight" link from the list of flights presented.
+ 4. Displays a screen with input fields for: a credit card number, cardholder name, and credit card expiration date.
+ 5. Selects the "Complete Reservation" option. The message "Reservation Successfully Made" is also displayed. 
+ 
+
+ 
+ 1). 3, 4, 2, 1, 5 
+
+ 2). 1, 2, 3, 4, 5 
+
+ 3). 2, 1, 4, 5, 3 
+
+ 4). 3, 2, 4, 1, 5 
+ 
+Solution :
+option  [1]  is correct 
+
+
+
+
+Q51. Which of the following are main considerations while selecting a tool? 
+ 
+
+ 
+ 1). Assessment of the organization's maturity 
+
+ 2). Identification of the areas where tool support will help to improve testing processes 
+
+ 3). Evaluation of tools against clear requirements and objective criteria 
+
+ 4). Identifying and planning internal implementation 
+ 
+Solution :
+option  [1,2,3,4]  are correct 
+
+
+
+Q52. Complete the following statement:
+
+ "The prevention cost consists of :" 
+ 
+
+ 
+ 1). Cost of time spent in DP meetings 
+
+ 2). Cost of time spent on review and testing activities from 
+ the project start date to till date 
+
+ 3). Cost of time spent by DPR/PM/TL on analysis of defect entries/discussions with team members 
+
+ 4). Cost of time spent by the team in implementing the 
+ preventive actions identified from project start date to till date 
+
+ 5). Cost of time taken to fix the pre and post delivery defects 
+ 
+Solution :
+option  [1,3,4]  are correct 
+
+
+
+
+Q53. The Test Design Review Effort of closure metrics effort distribution can be calculated as: 
+ 
+
+ 
+ 1). Test Design Review effort =
+ (Effort spent on a STLC Phase / Total STLC effort) * 100 
+
+ 2). Test Design Review effort =
+ (Effort spent on Test Case design review rework / Total effort for spent on Test Case design) * 100 
+
+ 3). Test Design Review effort =
+ (Total Effort spent on preparation of the KM artifacts / Total actual effort for the project) * 100 
+
+ 4). Test Design Review effort =
+ (Effort spent on Test Case design reviews / Total effort spent on Test Case design) * 100 
+ 
+Solution :
+option  [4]  is correct 
+
+
+
+Q54. State True or False:
+
+ Testing Tools can be classified based on following  criteria:
+
+ 1. Purpose
+ 2. Commercial / free / open-source / shareware
+ 3. Technology used 
+ 4. Tools that support Testing activities 
+ 
+
+ 
+ 1). TRUE 
+
+ 2). FALSE 
+ 
+Solution :
+option  [1]  is correct 
+
+
+
+Q55. Match the following: 
+
+ 1. Test comparators
+ 2. Coverage Measurement Tools
+ 3. Security Testing Tools
+
+ A. Determine differences between files, databases or test results
+ B. Measure the percentage of specific types of code structures that have been exercised through 
+      intrusive or non-intrusive means
+ C. Evaluates the ability of the software to protect data confidentiality, integrity, authentication, 
+      authorization, availability, and non-repudiation 
+ 
+
+ 
+ 1). 1-C, 2-B, 3-A 
+
+ 2). 1-A, 2-B, 3-C 
+
+ 3). 1-B, 2-C, 3-A 
+
+ 4). 1-C, 2-A, 3-B 
+ 
+Solution :
+option  [2]  is correct 
+
+
+
+Q56. If number of defects detected in each phase is 50, And the total number of defects planned 
+ to be detected in each phase is 150. Then calculate the defect detection index? 
+
+
+ 
+ 1). Defect Detection Index = 150/50= 2.4 
+
+ 2). Defect Detection Index = 50/150= 0.42 
+
+ 3). Defect Detection Index = 50*150= 6000 
+
+ 4). Insufficient inputs given for calculating Defect Detection index 
+ 
+Solution :
+option  [2]  is correct
+
+
+
+Q57. Which of the following  formula is used for determining the cost of a defect in a review? 
+ 
+
+ 
+ 1). Cost of finding a defect in reviews = (Total efforts spent on testing / defects found in testing) 
+
+ 2). Cost of finding a defect in reviews= 100 * Total no. of defects found in review / Total no. of defects 
+
+ 3). Cost of finding a defect in reviews = (Total efforts spent on reviews / No. of defects found in reviews) 
+
+ 4). Cost of finding a defect in reviews = (Total efforts spent on testing / No. of defects found in reviews) 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+Q58. Identify the following mentioned tools which supports for Static Testing: 
+ 
+
+ 
+ 1). Review Tools 
+
+ 2). Static Analysis Tools 
+
+ 3). Modelling Tools 
+
+ 4). Test Execution Tools 
+ 
+Solution :
+option  [1,2,3]  are correct 
+
+
+
+Q59. Defect arrival rate formula is: 
+ 
+
+ 
+ 1). Defect arrival rate=(Total number of defects including both impact and non-impact, found in all the phases + 
+ Post delivery defects)/Size 
+
+ 2). Defect arrival rate=Total efforts spent on Prevention + Total efforts spent on Appraisal + 
+ Total efforts spent on failure or rework)*100/(Total efforts spent on project) 
+
+ 3). Defect arrival rate=Efforts spent on fixing or reworking the pre-delivery defects + 
+ (3 * efforts spent on fixing or reworking the post-delivery defects) 
+
+ 4). Defect arrival rate=Number of Defects * 100 /Number of Test Cases planned for Execution 
+ 
+Solution :
+option  [4]  is correct 
+
+
+
+
+
+Q60. Which of the following are valid Process Metrics? 
+ 
+
+ 
+ 1). Cost of Quality 
+
+ 2). KM Efforts 
+
+ 3). Test Effectiveness 
+
+ 4). Defect Density 
+
+ 5). Test Escape 
+ 
+Solution :
+option  [1,3,5]  are correct 
+
+
+
+Q61. Study below given scenario:
+
+ During withdrawal of money in the ATM machine ,If the withdrawal amount entered is greater than 
+ the available balance amount, Then appropriate error message is thrown so that the user understands 
+ what to do next. This above scenario suits which non functional requirement? 
+ 
+
+ 
+ 1). Functionality 
+
+ 2). Reliability 
+
+ 3). Usability 
+
+ 4). Performance 
+
+ 5). Supportability 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+Q62. Consider following scenario:
+
+ You want to transfer data from desktop to mobile using Bluetooth. Identify the type of  requirement. 
+ 
+
+ 
+ 1). System requirements 
+
+ 2). Software requirements 
+
+ 3). Interface requirements 
+
+ 4). Application requirements 
+ 
+Solution :
+option  [3]  is correct 
+
+
+
+Q63. These requirements are not given by the customer directly. 
+ 
+
+ 
+ 1). Implicit requirements 
+
+ 2). Software requirements 
+
+ 3). Database requirements 
+
+ 4). Application requirements 
+
+ 5). Explicit requirements 
+ 
+Solution :
+option  [1]  is correct 
+
+
+
+Q64. What are number of ways how an application can be invoked? 
+ 
+
+ 
+ 1). Windows Explorer 
+
+ 2). through Command Line 
+
+ 3). reading through the contents of a text file 
+
+ 4). through a web form 
+ 
+Solution :
+option  [1,2,4]  are correct 
+
+
+
+Q65. Those who are responsible for transforming the requirements into design are: 
+ 
+
+ 
+ 1). Business Analyst 
+
+ 2). Designers 
+
+ 3). Developers 
+
+ 4). Testers 
+ 
+Solution :
+option  [2]  is correct
+
+
+
+Q66. Consider below given scenario:
+
+ In library management system, which of the following assumptions are true if the book is available in the library? 
+ 
+
+ 
+ 1). Book is not available in library 
+
+ 2). Book is not in good condition 
+
+ 3). Purchase phase is over 
+
+ 4). Book is issued to some user 
+
+ 5). Book is not claimed & status is on shelf 
+ 
+Solution :
+option  [3,5]  are correct 
+
+
+
+
+Q67. Functional requirements are divided into: 
+ 
+
+ 
+ 1). Explicit requirements 
+
+ 2). Software requirements 
+
+ 3). Interface requirements 
+
+ 4). Application requirements 
+ 
+Solution :
+option  [1,3]  are correct 
+
+
+
+Q68. The below examples identify which type of Non Functional Requirement.
+  
+ Aesthetics, Screen Navigation,
+ Readability of information,
+ Output format,
+ Labeling of fields,
+ Meaningful error messages,
+ Help files & User manual 
+ 
+
+ 
+ 1). Usability 
+
+ 2). Supportability 
+
+ 3). Performance 
+
+ 4). Reliability 
+ 
+Solution :
+option  [1]  is correct 
+
+
+
+Q69. For accessing an online banking service  user registration is required. This is the example for: 
+ 
+
+ 
+ 1). System requirements 
+
+ 2). Informational requirements 
+
+ 3). Interface requirements 
+
+ 4). Software requirements 
+
+ 5). Application requirements 
+ 
+Solution :
+option  [2]  is correct 
+
+
+
+Q70. Consider following scenario:
+
+ An on-line currency broker system accepts customer registration on Internet & provides online currency 
+ exchange Canadian currency (CAD) to USD. Categorize functional & non functional requirements:
+
+ 1. Functional
+ 2. Non functional
+
+ XI. Customer is able to place a quote request
+ XII. Customer should be able to access the application 
+ XIII. Customer is receiving amount in the US funds in the form of money order.
+ XIV. The browser must be equipped with java plug-in. 
+ 
+
+ 
+ 1). 1- XI, XII, XIII 2- XIV 
+
+ 2). 1- XI, XIII 2- XIV, XII 
+
+ 3). 1- XII, XIII 2- XII, XIV 
+
+ 4). 1- XI, XIV, 2- XII, XIII 
+ 
+Solution :
+option  [1]  is correct 
