@@ -1,0 +1,123 @@
+/*********************************************************************
+ * File                 : DefensiveProgramming.txt
+ * Author Name          : Capgemini
+ * Desc                 : Compute Electricity Bill
+ * Version              : 1.0
+ * Last Modified Date   : 20-Dec-2017
+ * Change Description   : Description about the changes implemented
+ *********************************************************************/
+ DECLARE InvalidCust AS EXCEPTION;
+ DECLARE ReadingNotFound AS EXCEPTION;
+BEGIN
+	//Declaration Section
+	DECLARE CustId,MobNo,MR AS INTEGEER
+	DECLARE CustName AS STRING
+	DECLARE Amt AS REAL
+    DECLARE Valid AS BOOLEAN	
+	
+	//input section
+	Valid=TRUE
+	PROMPT "Enter CustId" AND STORE IN CustId
+	PROMPT "Enter CustName" AND STORE IN CustName
+	PROMPT "Enter MobNo" AND STORE IN MobNo
+	PROMPT "Enter MR" AND STORE IN MR
+	
+	//Validation Segment
+	IF(!validate CustId(CustId)) THEN
+	PRINT"Please Enter Validate CustId"
+	Valid=FALSE
+	END IF
+	
+	IF(!validate CustName(CustName)) THEN
+	PRINT"Please Enter Validate CustName"
+	Valid=FALSE
+	END IF
+	
+	IF(!validate MobNo(MobNo)) THEN
+	PRINT"Please Enter Validate MobNo"
+	Valid=FALSE
+	END IF
+	
+	//Processing Segment
+	IF(Valid) THEN
+	Amt = CalculateBill(CustId,MR)
+	
+	//OUTPUT SEGMENT
+	PRINT "CustId" + CustId
+	PRINT "CustName" +CustName
+	PRINT "MobNo" +MobNo
+	PRINT "Amt" +Amt
+	END IF
+END
+
+/*********************************************************************
+* Module Name         : CalculateBill()
+* Input Parameters    : CustId,MR
+* Return Type         : REAL
+* Author              : Capgemini
+* Creation Date       : 20-Dec-2017
+* Description         : Calculating Electricity Bill
+ *********************************************************************/
+ 
+ SUB CalculateBill(CustId,MR)
+	 DECLARE UnitCon,PastReading AS INTEGER
+	 DECLARE Amt AS REAL
+	 PastReading=GetCustReading(CustId)
+	 UnitCon = MR-PastReading
+	 Amt = UnitCon*4.20+100
+	 RETURN Amt;
+	 
+	 //Exception SEGMENT
+	 EXCEPTION 
+			When Invalid Customer THEN
+			PRINT"You are not registered"
+			When ReadingNotFound  THEN
+			
+			PRINT"NO MR found for this Customer"
+When Other THEN
+PRINT "Sorry something wrong has happened";
+END SUB
+	 
+	 
+	/*********************************************************************
+* Module Name         : CalculateBill()
+* Input Parameters    : CustId,MR
+* Return Type         : REAL
+* Author              : Capgemini
+* Creation Date       : 20-Dec-2017
+* Description         : Calculating Electricity Bill
+ *********************************************************************/
+ 
+SUB GetCustR(CustId)
+ 
+	IF(foundDetails(CustId) THEN
+	//ASSUMING CURRENTREADING  IS COLUMN NAME IN TABLE
+	IF(CurrentReading!=NULL)
+		RETURN CurrentReading;
+		ELSE
+		RAISE ReadingNotFound
+	END IF
+	ELSE
+//RAISING EXCEPTION
+	RAISE Invalid Customer
+	END IF
+	
+	
+END SUB
+ 
+  
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+
+	
+	
+	
+	
+	
