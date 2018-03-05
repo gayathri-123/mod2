@@ -1,0 +1,43 @@
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class _____ {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver=new FirefoxDriver();
+		String url="http://demo.opencart.com";
+		driver.get(url);
+		
+
+		
+		if(driver.findElement(By.xpath(".//*[@id='logo']/h1/a")).getText().contentEquals("Your Store"))
+	{
+			System.out.println("Title Verified");
+	}	
+		else
+	{
+			System.out.println("Title NOT Verified");
+	}	
+		
+		driver.findElement(By.xpath(".//*[@id='cart']/button")).click();
+		
+		if(driver.findElement(By.xpath(".//*[@id='cart']/ul/li/p")).getText().contentEquals("Your shopping cart is empty!"))
+	{
+			System.out.println("Text (Shopping cart is Empty) Verified");
+	}	
+		else
+	{
+			System.out.println("Text (Shopping cart is Empty) NOT Verified");
+	}
+		driver.findElement(By.xpath(".//*[@id='form-currency']/div/button")).click();
+		driver.findElement(By.xpath(".//*[@id='form-currency']/div/ul/li[2]/button")).click();
+		
+	Thread.sleep(5000);
+
+}
+}

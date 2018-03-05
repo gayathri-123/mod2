@@ -1,0 +1,20 @@
+hub
+java -jar selenium-server-standalone-2.48.2.jar -role hub
+
+to verify hub is running
+http://localhost:4444/grid/console
+
+10.102.52.90 - ip address
+
+On node:
+
+java -jar selenium-server-standalone-2.48.2.jar -role webdriver -hub
+
+http://10.77.162.75:4444/grid/register -port 5666
+
+
+java -jar selenium-server-standalone-2.48.2.jar -Dwebdriver.chrome.driver="c:\chromedriver.exe" -role node -browser browserName=chrome -hub http://10.102.52.90:4444/grid/register -port 5666
+
+
+
+
