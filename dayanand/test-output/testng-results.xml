@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27" started-at="2018-02-22T14:22:07Z" finished-at="2018-02-22T14:22:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27" started-at="2018-02-22T14:22:07Z" finished-at="2018-02-22T14:22:07Z">
+      <class name="HubN">
+        <test-method status="FAIL" signature="beforeannotation()[pri:0, instance:HubN@4c75cab9]" name="beforeannotation" is-config="true" duration-ms="0" started-at="2018-02-22T19:52:07Z" finished-at="2018-02-22T19:52:07Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at HubN.beforeannotation(HubN.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeannotation -->
+        <test-method status="SKIP" signature="testannotation()[pri:0, instance:HubN@4c75cab9]" name="testannotation" duration-ms="0" started-at="2018-02-22T19:52:07Z" finished-at="2018-02-22T19:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testannotation -->
+        <test-method status="SKIP" signature="afterannotation()[pri:0, instance:HubN@4c75cab9]" name="afterannotation" is-config="true" duration-ms="0" started-at="2018-02-22T19:52:07Z" finished-at="2018-02-22T19:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterannotation -->
+      </class> <!-- HubN -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
