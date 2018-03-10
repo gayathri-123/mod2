@@ -1,0 +1,946 @@
+1. why would you want to automate a test?
+	1.to run the test fast and frequently 2.to optimize efficiency and quality 3. to increase the test coverage
+
+2.false about automation testing
+	eliminating time consuming manual processs
+
+3.correct about test automation
+	automation testing will magnify the inefficiency 
+
+4.true about selenium
+	selenium supports physical browser
+
+5.following app can be tested selenium
+	html and javascript
+
+6.the test scripts written in selenium rc can be executed
+	only on javacript enabled browser
+
+7.not a component of selenium suite
+	none of the above
+
+8.selenium is a combination of
+	assertion action acccessor
+
+9.selenium ide can be exported in which language
+	python java and ruby
+
+10.the speed control tool available in selenium ide is used for
+	controlling how fast the test case will run in selenium ide
+
+11.record and play back without programming lang
+	true
+
+12.whatis functionality of export test suite
+it will export all the test cases in the currenty opened test suite
+ in desired lang
+
+13.log pin is used for showing
+error messages information message and command execution
+
+14.rokesh want to validate if the test registered here is present on the website.the execution should continue even if element is present or not
+verify test present
+
+15.correct syntax for printing name
+${name}
+
+16.locate the element in a form eith id txt name
+
+17.which is not a valid DOM locator
+getelementbyname
+
+18.css=input[name=contact_number]
+locate the element in the form with the name contact_number
+
+19.in which format you cannot export selenium ide test cases
+c#2/nunit
+
+20.correct syntax tag class and attribute
+css=input.nameformat [name=value.lname]
+
+21.why we should not use implicit and explicit together?
+ cause unpredictable wait time
+
+22.selenium api webdriver not able to support other browser
+webdriver operates at OS level
+
+23.achieved by implicit wait in a webdriver
+a&c are correct
+
+module 3
+25.mithun is a java programmer created an array emp[13]
+arrayindexoutofboundsexception
+
+26.hashcode method are incorrect
+return only positive integer
+the hashcode method in a string class are inherited from objects
+
+27.to grow or shrink its size
+java.util.arrraylist
+
+28.long to long,int to long
+autoboxing
+
+29.valid on any output stream but has no effect unless buffer
+flush
+
+30.comm between objects via sockets 
+use object serialization by creating a class which implements the serializable interface
+
+31.optimize input and ouput data by Ramesh with reduced number of call to the api
+buffered streams
+
+32.store a element in a collection that guaranees that no duplicates and sorted order
+Treeset
+
+33.class to implement the collection interface
+arraylist
+
+34.object will not accept insertion of null elements
+hashtable
+
+35.used by treeset
+comparable
+
+36.correct statement about java
+element in a treeset must be a type comparable
+
+37.collection api is considered to be safe store the object in a key value pair
+hash table
+
+38..collection api is considered to be safe uses hashing algorithm to store the object
+hash table
+
+39.correct about list in a java collection
+list is an ordered collection
+
+40.interface of java.util package allows 
+entries are sorted using comparator interface
+duplicate entries r replaced with original entries
+entries are sorted as key value pair
+ans:sorted map
+
+41.allows to access element with key with an element value synchronized
+hash table
+
+42.index based access for its element also makes it faster for searching but not synchronized
+arraylist
+
+43.code snippet: treeset tree=new treeset tree.add 
+error: class exception tree should sort in order(cannot ad diff data types)
+43.a.
+code snippet:
+-23
+299
+a
+abc
+cde
+pqr
+
+44.code snippet:hashset.add("1") again add 1
+hashset
+1
+
+45.set string hs=new hashset hs.add berry apple orange berry lemon 45 print hs.size
+5
+
+46.code:
+set set=new hashset();set.add("B");set.add("B");set.add("D");set.add("E")
+no compilation or runtime error
+
+46.code:
+map=new hashMap();map.put(1,"Mohan");map.put(2,"Mohan");map.put(1,"Mohan"); map.size
+ouput is 2
+
+47.diff bet hashtable and hashmap
+hashtable is synchronized whereas hashmapis not synchronized.
+
+48.true about hashmap and hashtable
+hashtable is synchronized
+
+49.---- does not allow null object in a keys as well as in values
+hash table
+
+50.album of songs in which the songs are arranged alphabetically as per the title without duplication
+treeset
+
+51.not true about hashMap
+hashmap maitains order of its element
+
+52.code: list<int> obj=new arraylist;int obj.add(new int 3); int obj.removeall;int obj.isEmpty
+true
+
+53.true about collection
+hashMap allows one null key and multiple null value
+
+54.pick true statement
+List allows duplicate entries
+
+55.pick true statement
+collection idex starts from 0
+list alows duplicate entries
+set does not alows duplicate entries
+
+56.hashset	 unsorted unordered set		
+linked hashset   ordered unsorted duplicates not allowed
+linked list      ordered unsorted duplicate allowed
+hash table       unsorted unordered entry will be available as key value pair
+
+57.salary ram
+tree set
+
+58.allows the caller to remove elements from the collection
+iterator
+
+59.insertion and deletion of the product objects frequently. data is not sorted
+Linked list
+
+60.stored classroom num in a treeset print the classroom numbers
+can use either iterator or enhanced for loop
+
+61.code: arraylist fruits code inserion
+collections.sort(fruits)
+
+62.code: hashMap
+3
+
+63.ArrayList al.add("C")a f a; 
+cafa
+
+64.development of EMS,emp name and salary in key value pair-sorted and ordered manner
+hashMap
+
+65.hold a collection of objects with no duplicate entries and no need of sorting
+
+hashSet
+66.treeset tree=new treeset;tree.add("1");tree.add("2") ;tree.add("3"); tree.add("4"); tree.add(1);
+
+4132
+
+67.true about exception in java
+any statement after throws will be an unreachable code
+
+mod 4
+
+66.true about ignore annotation in java in JUnit
+ignore can be applied to class as well as methods
+
+67.correct code to run the test suite
+runwith(suite.class)
+
+68.correct code for failing the test if the test takes longer than 1 sec
+@test(timeout=1000)
+
+69.true regarding before and before class annotations if there is ten test class
+before code will be executed 10 times but before class is executed only once.
+
+70.code:@test(timeout=1000)
+it will fail the test if the test takes more than 1000 millisconds
+
+71.@test getrollno{},@ignoreget,@test getlastname{} how many will be executed
+2
+
+72.exception thrown by following method:
+div 1/0
+expected=arithmeticexception
+
+73.exclude the test
+ignore
+
+74.---allows developers to run the code again and again using different values                   
+parameterized test
+
+75.speedup io operations
+buffered stream
+
+76.true about serialization
+option:serialization is the process of saving the stream into object
+object class need to implement serialization interface
+deserialization reconstructig object
+Ans: all of the above
+
+77.method to clear all the data in buffer
+flush
+
+78.specified element is file or not
+isFile
+
+79.process of transferring an object to bytes
+serialization
+
+80.can data flow 
+no.stream has one direction only
+
+81.read char i/p data
+reader
+
+82.while using try with resource fetature, when are the resources declared within try block closed?
+normally or abnormally
+
+83.true about exception handling
+all of the above
+
+84.incorrect:
+try need not be followed by anything
+
+85.true about finally block:
+the statement of finally block is executed irrespective of exception
+
+86.scenerio: throws io exception
+io exception will be executed followed by finally block
+
+87.creating custom defined exception
+exception
+
+module 2
+88.not true about usecase modelling
+capture how system will perform function
+less effective lesion technique
+capture non functional
+
+89.use case:
+user reg
+make payment
+
+90.true about usecase:
+can be used throughout sdlc
+2
+effective where multiple user
+
+91.actor:true
+human,machine,software
+interacting with system
+
+92.use case can be used to perfrom
+buisness scenario
+
+93.use cases are not used for non functinal
+true
+
+94.one test case for each usecases
+true
+
+95.use case and use case scenarios are same:
+false
+
+96.identify usecases:
+login user reg purchase item make payment
+
+97.identify actor:
+student,faculty,hod
+
+98.invalid equivalence class value:accepts alphabets lower or upper 
+01ss
+
+99.loop testing is a controlled structured testing where the --used is that
+focus on testing the validity of loop construct in tht program
+
+100.interview process:
+state transition testing
+
+101.code inspection,buddy reviews,walthrough,peer reviews designer stimulates the program
+code walkthrough
+
+102.cyclomatic matrix complete the statement
+independent logical path in the program
+
+103.true about vnv model:
+test each module based on client requirements
+
+104.not a integration strategy
+design based
+
+105.performace testing:throughput,response time
+all of the above
+
+106.most imp test case to triangle formation:
+test case to find whether the triangle is formed
+
+107.best candidate of automation testing
+regression test
+
+108.once testing top module is done then any one of the module is added waht is ?
+top down incremental testing
+
+109.during bottom up testing 
+drivers
+
+110.why do you measure testing matrix
+getting early warnings
+helps predict long time
+basics for deriving
+
+111.Test matrix:
+all of th above
+
+112.% of cost of quality=tot efforts spent on
+true
+
+113.assertequals(11,integer,parseint(11));
+assertequals("One","one")
+public void compare month asertequals new date.getmonth newcalender.getcalendar.month
+compare string fails
+
+114.@after
+once for every test in the class
+
+115.true about exception:
+any statement that can throw checked exception should be in try block or the method should have throws
+
+module 1
+
+113.which is done as a part of system testing
+functional
+
+114.when conf management is not maintained?
+wrong version number codes exist for review delivery
+
+115.abstract class and interface
+abstract class encapsulated
+
+116.code:p{}
+background-color:55000.5
+
+117.true regarding sub queries:
+main query and sub query can get diff table data
+
+118.match:
+alert		single ok button
+confirm		ok and cancel button
+prompt		user entry with ok and cancel
+
+119.correct tag:
+h{color:black;}
+
+120.tag for style format
+style
+
+121.performance tuning method
+index
+
+122.do not want user to see underlined data structure
+view
+
+123.not a correct term associated with view
+update all the tables
+
+124.type of constraint can be applied to the branch name colum
+check
+
+125.which join is not available
+full outer join
+
+126.ramesh wants to inc the sal by 15% for all the employees wo
+update employee set sal=sal+(sal*.15);
+
+127.By.className("classname"))[0].click();
+compilation error
+
+128.incorrect to wait will the visibility of element in the page
+element to be visible
+visibility of the element
+
+129.why xunit along with selenium api
+none of the above
+
+130.whic is not in junit assertion
+assertnottrue
+assertnotequals
+
+131.components will be there in any xunit frameworks
+test runner test result and test case
+
+132.not valid testNG xml tag names
+none of the above
+
+133.jenkins
+continuous integration
+
+134.add a test run all test write some code run test refactor test and repeat steps
+TDD
+
+L1 preparation
+
+1.which is done as part of system testing?
+	functional testing
+
+2.what would happen if configuration management is not mentioned?
+	wrong version numbers and codes exist for review and delivery.
+
+3.in oops what is the diff between abstract class and interface?
+	abstract class encapsulates common behavior for use by related class whereas interface is encapsulated by unrelated class
+
+4.which is true regarding subquery?
+	main query and sub query can get data from different tables.
+
+5.class hierarchy   -   is a relationship
+  object hierarchy  -   has a relationship
+
+6.The relationship between sentence and a word - composition
+
+7.acc,saving account and current account-acc consist services->saving and current, relationship between acc and other two components
+ 	Realization
+
+8.track the version-author and test for assembling testing and deploying releases.which feature should be added?
+	Tagged values
+
+9.a network is modelled on project req.which uml extension used to rpresent nodes to represent servers and clients?
+	Stereotypes
+
+10.indicates relationship btw super class and sub class?
+	Generalization
+
+Module 2
+
+11.Earlier the defect found the cheaper is to fix it?True/False
+True
+
+12.The defect attribute helpful to identify the imp f defect
+defect severity
+
+13._____ is the severe defect in a defect reporting?
+Wrong severity
+
+14.defect severity is an indication of
+criticality of the defect
+
+15.Defective defect report leads to
+multiple cycles of co ordination with the development team
+
+16.defects are least costly
+Requirement analysis
+
+17.errors that are cosmetic in nature are assigned ___________ severity
+low
+
+18.identify the app version is one of the benefits of dfdr to whom?
+maintanance Engineer
+
+19._______ and ___________ indicates how imp to indicates how imp and when it should be fixed
+priority and severity
+
+20.defect life cycle
+new->assign->fixed->closed
+
+21.high priority error based on the given scenario?
+after withdrawing amount bal is not updated,atm sys is always not connected with the system
+
+22. to avoid disagreement of the developers to a defect
+make sure that defect is reproduceable,document all the steps to reproduce the defect.
+
+mod 3
+
+23.which are true regarding finally block?
+	finally is executed irrespective of exception
+
+24.which is incorrect?
+	try block need not be followed by anything
+
+25.true about exception handling?
+	all of the above
+
+26.while using a try with resource feature when are resources declared?
+      resources are closed either normally and abnormally
+
+27.Can data flow in a datastream in given boat direction? 
+No stream has one direction only  either input or output
+
+28.list stream lst=new arrayliststream
+int obj=10
+string str=new string("Igate")
+list.add("Itops");
+lst.add(str)
+lst.add(string)"global";
+last.add(string)" ";
+lst.add("obj");
+
+compilaton:in line 2 trying to case integer to string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
